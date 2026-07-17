@@ -44,21 +44,21 @@ To get started, follow these steps:
  
 1. Clone the repository:
 ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/FabianRitzmann/wordpress-docker-setup.git
+   cd wordpress-docker-setup
 ```
 
 2. Open `.env` and set `MYSQL_PASSWORD` and `MYSQL_ROOT_PASSWORD` to strong,
    unique values.
    > [!TIP]
    > You can generate a random, secure password with:
-   > ```bash
-   > openssl rand -base64 24
-   > ```
+```bash
+penssl rand -base64 24
+```
  
 3. Start the stack:
 ```bash
-   docker compose up -d
+docker compose up -d
 ```
 
 4. Open `http://<your-host-ip>:8080` in your browser and complete the

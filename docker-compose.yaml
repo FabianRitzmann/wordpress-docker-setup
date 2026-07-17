@@ -14,7 +14,7 @@ services:
       - wordpress_network
 
   wordpress:
-    image: wordpress:latest
+    image: wordpress:6.6.2-php8.3-apache
     container_name: wordpress_app
     depends_on:
       - db
