@@ -11,6 +11,7 @@ environment-based configuration.
 - [Usage](#usage)
 - [Testing](#testing)
 - [Security Notes](#security-notes)
+
 ## Description
  
 This repository contains everything needed to run a self-contained WordPress
@@ -37,7 +38,17 @@ container restarts and recreations. The WordPress installation itself
 | `README.md`            | This documentation                                        |
  
 ## Quickstart
- 
+
+### Prerequisites
+
+In order to run this project you need the following:
+
+- **Git** – to clone the repository
+- An **OCI-compliant container engine with Compose support** (e.g. Docker
+  Engine + Compose plugin)
+- A **host or VM with a public IP** and **port `8080` open**
+- **Terminal/SSH access** to that host
+
 ### Installation
  
 To get started, follow these steps:
