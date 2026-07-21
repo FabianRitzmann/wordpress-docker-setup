@@ -72,8 +72,10 @@ cp example.env .env
 
 3. Open `.env` and set `MYSQL_PASSWORD` and `MYSQL_ROOT_PASSWORD` to strong,
    unique values.
-   > [!TIP]
-   > You can generate a random, secure password with:
+
+> [!TIP]
+> You can generate a random, secure password with:
+
 ```bash
 openssl rand -base64 24
 ```
